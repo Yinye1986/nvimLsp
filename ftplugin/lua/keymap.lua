@@ -1,1 +1,1 @@
-vim.keymap.set({"n", "v", "i"},",s",":LSStart")
+vim.keymap.set("n", ",s", ":LSStart")
