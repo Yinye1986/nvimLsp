@@ -7,7 +7,3 @@ vim.api.nvim_create_user_command("LSStart",
         })
     end, {}
 )
-
---- keymap ---
-vim.keymap.set({ "n", "v" }, ",s", ":LSStart<CR>")
-vim.keymap.set({ "n", "v" }, ",f", ":lua vim.lsp.buf.format()<CR>")
