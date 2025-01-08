@@ -2,7 +2,7 @@ vim.api.nvim_create_user_command("LSStart",
     function()
         vim.lsp.start({
             name = "djlsp",
-            cmd = { "djlsp" },
+            cmd = { 'ast-grep', 'lsp' },
             root_dir = vim.fs.dirname(vim.fs.find({ "", "" }, { upward = true })[1]),
         })
     end, {}
