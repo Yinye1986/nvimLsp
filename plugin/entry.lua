@@ -7,4 +7,5 @@ vim.cmd[[
     autocmd BufRead,BufNewFile *.c luafile ~/.local/share/nvim/lazy/nvimLsp/ftplugin/clangd/conf.lua
     autocmd BufRead,BufNewFile *.h luafile ~/.local/share/nvim/lazy/nvimLsp/ftplugin/clangd/conf.lua
     autocmd BufRead,BufNewFile *.py luafile ~/.local/share/nvim/lazy/nvimLsp/ftplugin/python/conf.lua
+    autocmd BufRead,BufNewFile *.html luafile ~/.local/share/nvim/lazy/nvimLsp/ftplugin/html/conf.lua
 ]]

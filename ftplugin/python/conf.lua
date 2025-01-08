@@ -1,6 +1,6 @@
 vim.lsp.start({
     name = "pyright",
-    cmd = { "pyright" },
+    cmd = { "pylsp" },
     root_dir = vim.fs.dirname(vim.fs.find({ 'myenv', ".venv" }, { upward = true })[1]),
 })
 
